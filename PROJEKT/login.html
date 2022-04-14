@@ -23,7 +23,7 @@
 </head>
 
 
-<body class='fullscreen'>
+<body class='fullscreen' background="bg.jpg">
     <div class="container">
         <div class="row">
           <div class="col-2">
@@ -38,24 +38,28 @@
     <!--- -----------------------------------SZABLON STRONY----------------------------------------------------------------  --->
     <script src='main.js'></script>
  
-    <div class="container mt-5">
-        <div class="col-sm-4">
+    <div class="container">
+      <div style="height: 150px; ">
+
+      </div>
+      <div class="d-flex justify-content-center">
+        <div>
             <form action="page.html">
                 <div class="form-group">
                   <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"><br>
                  </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  <input  type="password" class="form-control " id="exampleInputPassword1" placeholder="Password">
                 </div>
                 <br>
-               <button type ="submit" class="btn btn-primary">Log In</button>
-              </form>
-              <br> <br>
+                <div class="d-flex justify-content-center"><button type ="submit" class="btn btn-primary btn-lg">Log In</button></div>
+              </form><br></div>
+              
         </div>
             <div class="col-sm-4">
-                <a href ="#" role="button" class="btn btn-primary btn-lg active">Zaloguj się z Facebookiem</a>
+              <div class="d-flex justify-content-center"><a href ="#" role="button" class="btn btn-primary btn-lg active">Zaloguj się z Facebookiem</a></div>
             </div>
 
         </div>
