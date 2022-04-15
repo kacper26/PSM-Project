@@ -35,40 +35,49 @@
             </a> 
           </div>
 
-          <div class="col-10 bg-secondary">
+          <div class="col-10">
             <center><h2> Calories Counter App</h2></center>
           </div>
     </div><br>
     <!--- -----------------------------------SZABLON STRONY----------------------------------------------------------------  --->
-    <div class="container">
+    <div class="container mt-3 pt-3">
           <div class="row" style="height: 25%">
-            <div class="col-8 bg-warning" >
-              <div class="bg-info" style="height: 75px">
-                <br>Obecna waga
-              </div>
-              <div style="height: 75px">
-                <br>Docelowa waga
+            <div class="col-8" >
+              <div class="" style="height: 50%">
+                <div>
+                  <p id="waga" style="display:inline" class="h5">Obecna waga</p> 
+                  <p id="waga" style="display:inline" class="h5">---</p>
+                  <p style="display:inline" class="h5">kg</p>
+                  </div>
+                </div>
+              <div style="height: 50%">
+                <p id="waga" style="display:inline" class="h5">Docelowa waga</p>
+                <p id="docelowa_waga" style="display:inline" class="h5">---</p>
+                <p style="display:inline" class="h5">kg</p>
               </div>
             </div>
-            <div class="col-4 bg-info">
+            <div class="col-4">
               <img src="weight-scale.png" style="height: 80px;"/>
             </div>
           </div>
 
-        <BR>
           
-        <div class="row align-items-center">
-          <div class="col bg-success" style="height: 150px">
+        <div class="mt-3 pt-3">
+          <div class="col" style="height: 150px">
             <div class="row" style="height: 25%">
-              <div class="col-4 bg-warning" >
-                <img src="calories-calculator.png" style="height: 80px;"/>
+              <div class="col-4" >
+                <img src="calories-calculator.png" style="height: 160px; width: 120px;"/>
               </div>
-              <div class="col-8 bg-info">
-                <div class="bg-info" style="height: 75px">
-                  <br>Pozostała ilośc do zeżrenia: X KCAL
+              <div class="col-8">
+                <div class="" style="height: 90px">
+                  <p class="h5">Pozostało do zjedzenia</p> 
+                  <p id="pozostalo" style="display:inline; text-align:center" class="h5">---</p>
+                  <p style="display:inline" class="h5">kcal</p>
                 </div>
                 <div style="height: 75px">
-                  <br>Zeżarłeś X KCAL
+                  <p class="h5">Zjedzono dziś </p> 
+                  <p id="zjedzono" style="display:inline" class="h5">---</p>
+                  <p style="display:inline" class="h5">kcal</p>
                 </div>
               </div>
             </div>
@@ -77,23 +86,27 @@
 
         <BR>
 
-          <div class="row align-items-center">
-            <div class="col bg-success" style="height: 250px">
-              <div class="row">
-                <div class="col bg-warning" >
-            
-                </div>
-                <div class="col bg-info">
-
-                </div>
+          <div class="row align-items-center mt-3 pt-3">
+            <div class="col" style="height: 200px">
+              <div class="col" style="height: 40px">
+                <center><p style="display:inline" class="h1">&nbsp Dodaj posiłek</p> </center>
               </div>
+              <div class="col" style="height: 160px">
+                <a href="adding.html">
+                  <img src="food.png"  class="rounded mx-auto d-block" style="height: 155px; width: 170px;"/>
+                </a>
+              </div>
+              
             </div>
           </div>
-
-
       <br><br>
 
-<br>
+      <div class="row align-items-center ">
+        <div class="col bg-success" style="height: 200px">
+          
+        </div>
+      </div>
+
 <!--- ----------------------------------- KONIEC SZABLON STRONY----------------------------------------------------------------  --->
 </body>
 </html>
